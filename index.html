@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptops</title>
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!--custome css-->
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!--navbar-->
+    <nav>
+        <section class="nav-container">
+            <aside class="txt">
+                <div class="navbar-center">
+                    <span class="nav-icon">
+                        <input class="search-txt" type="text" name="" placeholder="what are you looking for?">
+                        <a class="search-btn" href="#">
+                            <i class="fas fa-search"></i></a>
+                    </span>
+            </aside>
+            </div>
+
+            <aside class="menu">
+                <div class="menu-content">
+                    <i class="fa fa-unlock-alt"></i><a href="#" id="login">Login</a> | <i class="fa fa-user"></i> <a
+                        href="#">Register</a>
+                </div>
+                <div class="arrow-up"></div>
+            </aside>
+            <div class="login-form">
+                <form>
+                    <label>Username</label>
+                    <div>
+                        <input type="text" placeholder="Username" required>
+                    </div>
+                    <label>Password</label>
+                    <div>
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <div>
+                        <input type="submit" value="Log In">
+                    </div>
+                    <div>
+                        <a href="#" style="text-decoration: none; position: relative;top: 20px ; 
+            font-size: 14px;color: gray;">Forget Your Password?</a>
+                    </div>
+                </form>
+            </div>
+            <aside class="cart-btn">
+                <span class="nav-cart">
+                    <i class="fa fa-luggage-cart">Cart</i>
+                </span>
+                <div class="cart-items">0</div>
+            </aside>
+        </section>
+    </nav>
+    <!--end of navbar-->
+    <!-- hero -->
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">Products collection</h1>
+            <button class="banner-btn">shop now</button>
+        </div>
+    </header>
+    <!-- end of hero -->
+    <!-- products -->
+    <section class="products">
+        <div class="section-title">
+            <h2>our products</h2>
+        </div>
+        <div class="products-center">
+
+        </div>
+    </section>
+    <!-- end of products -->
+    <!-- cart -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="far fa-window-close"></i>
+            </span>
+            <h2>your cart</h2>
+            <div class="cart-content">
+                <!--- cart item --->
+               <!---- <div class="cart-item">
+                    
+                </div> -->
+                <!--- end of cart item --->
+                
+            </div>
+            <div class="cart-footer">
+                <h3>your total: EGP <span class="cart-total">0</span>
+                </h3>
+                <button class="clear-cart banner-btn">clear cart</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- end of cart -->
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
